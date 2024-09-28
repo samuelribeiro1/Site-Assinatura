@@ -3,13 +3,18 @@
         background-size: auto;
         height: 100%;
         display: flex;
+        justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 10%;
+        margin: 0;
     }
 
     .apresentacao__div{
-        margin: 0;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 10px;        
     }
     
     .apresentacao__titulo{
@@ -25,19 +30,22 @@
     }
 
     .apresentacao__botao1{
-        font-size: 15px;
+        font-size: 12px;
+        width: 80%;
     }
     
     .apresentacao__botao2{
-        font-size: 15px;
+        font-size: 12px;
+        width: 80%;
     }
 
     .apresentacao__aviso{
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .sessao2{
-        display: block;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         margin-bottom: 5em;
         justify-content: center;
@@ -52,15 +60,16 @@
     }
 
     .sessao2__titulo{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .sessao2__texto{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .sessao3__lista{
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         list-style-type: none;
         gap: 20px;
@@ -74,15 +83,23 @@
      }
 
      .rod__img{
-        width: 30%;
+        width: 50%;
     }
 
      .rod__lista{
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         list-style-type: none;
         gap: 10px;
         margin-bottom: 15px;
+     }
+
+     .rod__link{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 400;
+        color: var(--cor-ter);
      }
 
 }
