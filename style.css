@@ -169,10 +169,10 @@ body{
     text-decoration: none;
     font-size: 15px;
     font-weight: 800;
-    color: var(--cor-pri);
+    color: var(--cor-ter);
 }
 
 .rod__link:hover{
-    color: var(--cor-ter);
+    color: var(--cor-sec);
 }
 
