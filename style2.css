@@ -1,0 +1,88 @@
+@media (max-width: 1200px){
+    .apresentacao{
+        background-size: auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 10%;
+    }
+
+    .apresentacao__div{
+        margin: 0;        
+    }
+    
+    .apresentacao__titulo{
+        font-family: var(--fonte-pri);
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .apresentacao__logo{
+        width: 100%;
+        margin: 1em 0 1em 0;
+    }
+
+    .apresentacao__botao1{
+        font-size: 15px;
+    }
+    
+    .apresentacao__botao2{
+        font-size: 15px;
+    }
+
+    .apresentacao__aviso{
+        font-size: 15px;
+    }
+
+    .sessao2{
+        display: block;
+        align-items: center;
+        margin-bottom: 5em;
+        justify-content: center;
+    }
+
+    .sessao2__img{
+        width: 100%;
+    }
+
+    .sessao2__div{
+        margin: 0;
+    }
+
+    .sessao2__titulo{
+        font-size: 50px;
+    }
+
+    .sessao2__texto{
+        font-size: 20px;
+    }
+
+    .sessao3__lista{
+        display: block;
+        justify-content: center;
+        list-style-type: none;
+        gap: 20px;
+    }
+     .lista__mar{
+        margin: 0 0 5px 0;
+     }
+
+     .cel{
+        width: 45%;
+     }
+
+     .rod__img{
+        width: 30%;
+    }
+
+     .rod__lista{
+        display: block;
+        justify-content: center;
+        list-style-type: none;
+        gap: 10px;
+        margin-bottom: 15px;
+     }
+
+}
