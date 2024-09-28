@@ -37,30 +37,34 @@ body{
 }
 
 .apresentacao__div{
-    margin: 0 10em;
+    margin: 0 5em;
 }
 
 .apresentacao__titulo{
     font-family: var(--fonte-pri);
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 400;
     text-align: center;
 }
 
 .apresentacao__logo{
+    display: flex;
     height: 30%;
-    margin: 1em 0 1em 0;
+    margin: 1em 5em;
 }
 
 .apresentacao__botao1{
     background-color: var(--cor-sec);
     color: var(--cor-pri);
+    border: solid 2px var(--cor-sec);
     border-radius: 10px;
     padding: 1em;
     text-decoration: none;
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-bottom: 1em;
+    width: 100%;
 }
 
 .apresentacao__botao1:hover{
@@ -76,9 +80,11 @@ body{
     border-radius: 10px;
     padding: 1em;
     text-decoration: none;
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-bottom: 1em;
+    width: 100%;
 }
 
 .apresentacao__botao2:hover{
@@ -90,6 +96,9 @@ body{
     font-size: 12px;
     color: var(--cor-qua);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .sessao2__div{
@@ -175,4 +184,3 @@ body{
 .rod__link:hover{
     color: var(--cor-sec);
 }
-
