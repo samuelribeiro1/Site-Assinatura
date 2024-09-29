@@ -91,6 +91,7 @@ body{
     background-color: var(--cor-qua);
     border: 2px solid var(--cor-qua);
     color: var(--cor-qui);
+    font-weight: 600;
 }
 
 .apresentacao__aviso{
