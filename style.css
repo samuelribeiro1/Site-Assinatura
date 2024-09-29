@@ -89,7 +89,8 @@ body{
 
 .apresentacao__botao2:hover{
     background-color: var(--cor-qua);
-    border: 2px solid var(--cor-qui);
+    border: 2px solid var(--cor-qua);
+    color: var(--cor-qui);
 }
 
 .apresentacao__aviso{
